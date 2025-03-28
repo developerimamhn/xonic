@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #070510;
+  --foreground: #070510;
 }
 
 @theme inline {
@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #070510;
+    --foreground: #070510;
   }
 }
 
@@ -23,4 +23,435 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@font-face {
+  font-family: "Plain";
+  src: url("./font/Plain-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Plain";
+  src: url("/font/Plain-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Plain";
+  src: url("/font/Plain-Extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Plain";
+  src: url("/font/Plain-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+@layer utilities{
+  .privacypolicy{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%; /* 15.4px */
+  }
+  .privacypolicy{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+  }
+  .compais{
+    color: var(--White, #FFF);
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .lastpadding{
+    color: #C7C9D1;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+  }
+  .meedicalkitslist{
+    @apply text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]
+  }
+  .meedicalkitslist{
+    color: #C7C9D1;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 28px */
+  }
+  .golobalmarketes{
+    color: var(--black, #070510);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: 110%; /* 55px */
+  }
+.getstart{
+  border-radius: 8px;
+  background: #070510;
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Plain";
+  font-style: normal;
+  line-height: 24.75px; /* 137.5% */
+}
+  .lenerone{
+    background: linear-gradient(90deg, #070510 0%, #070510 100%);
+  }
+  .weworkdbest{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 70.4px */
+    text-align: center;
+  }
+
+.outlideopos{
+    color: #6F41D2;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 150;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .scroll-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .scroll-content {
+    display: flex;
+    align-items: center;
+    animation: infinite-scroll 40s linear infinite;
+  }
+  
+  
+  .desktoppage{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .desktopverson{
+    color: #FFF;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 125% */
+  }
+  .popularmost{
+    color: #FFF;
+    text-align: center;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.2px; /* 160% */
+    display: inline-flex;
+    padding: 5px 15px 6px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 76px;
+    border: 1px solid #225052;
+    background: #173F46;
+  }
+  .statebutton{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.75px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    transition: 0.5s;
+  }
+  .statebutton:hover{
+    background: #fff;
+    color: #001;
+  }
+  .tradinplasds{
+    color: var(--White, #FFF);
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+  .idealfornew{
+    color: var(--White, #FFF);
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  .MinDeposit{
+    color: var(--Paragraph, #C7C9D1);
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  .Heading20{
+    color: var(--White, #FFF);
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  .stateclassname{
+    color: #FFF;
+    font-family: 'Plain';
+    font-style: normal;
+    line-height: 28.558px; /* 118.992% */
+  }
+  .stareings{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.04);
+  }
+  .xonic{
+    color: var(--black, #070510);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+  }
+  .explab{
+    color: var(--black, #070510);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 70.4px */
+  }
+  .backgroundline{
+    background: radial-gradient(41.77% 41.77% at 50% 50%, rgba(7, 5, 16, 0.60) 0%, #070510 100%);
+  }
+  .numberingpositioning{
+    color: #FFF;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+
+  }
+  .padingfoxing{
+    color: var(--Paragraph, #C7C9D1);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+  }
+  .forex{
+    color: #FFF;
+    font-family: "Plain";
+    font-style: normal;
+    line-height: 100%;
+  }
+  .foxbackgron{
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .leveragefinancial{
+    color: var(--Paragraph, #C7C9D1);
+    text-align: center;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+    display: flex;
+    justify-content: center;
+  }
+  .backgroundimage{
+  background: linear-gradient(13deg, #070510 9.23%, rgba(7, 5, 16, 0.00) 88.14%);
+}
+  .headerbackgronsdvg{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(180deg, rgba(10, 11, 12, 0.64) 0%, rgba(10, 11, 12, 0.00) 100%);
+    position: relative;
+    z-index: 99;
+  }
+  .Frame9{
+    border-radius: 8px;
+    background: #FFF;
+    color: var(--black, #070510);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+  }
+  .Frame10{
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.04);
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+  }
+  .InvestTodayBuildASecuredTomorrow{
+    color: #FFFEFE;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .fonteight{
+    font-weight: 800;
+    font-family: "Plain";
+  }
+  .fontthree{
+    font-weight: 100;
+    font-family: "Plain";
+  }
+  .TradeLikeAProWithXonicCapital{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Plain";
+    font-style: normal;
+    line-height: 110%;
+  }
+  .custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 78px;
+  }
+  
+  select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;         
+    width: 78px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 16px;
+    outline: none;
+  }
+  
+  
+  .custom-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background 0.4s ease, padding 0.4s ease;
+    opacity: 0;
+    animation: slideUp 0.6s 0.4s ease forwards;
+  }
+  
+  /* Background change when scrolled */
+  .header.scrolled {
+    background: #070510;
+    font-size: #fff;
+  }
+  
+  /* Slide-up animation */
+  @keyframes slideUp {
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  .loginareas{
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.04);
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; 
+  }
+  .esistareas{
+    border-radius: 8px;
+    background: #FFF;
+    color: var(--black, #070510);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+  }
+  .Link-manu-bar{
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Plain';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+  }
+  .Link-manu-bar{
+    @apply text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] duration-300 text-[#fff] hover:text-[rgb(150,150,150)]
+  }
+  .backgroundheader{
+    background: linear-gradient(180deg, #141024 0%, #070510 50%);
+  }
 }
