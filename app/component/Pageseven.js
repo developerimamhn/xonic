@@ -58,7 +58,7 @@ const Pageseven = () => {
                 </div>
             </div>
             </div>
-            <div className='container mx-auto py-[80spx] sm:py-[120px] md:py-[148px] lg:py-[164px] xl:py-[180px] 2xl:py-[208px] '>
+            <div className='container mx-auto pb-[80spx] sm:pb-[120px] md:pb-[148px] lg:pb-[164px] xl:pb-[180px] 2xl:pb-[208px] '>
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-[40px] relative'>
                     
                     <div>
@@ -73,7 +73,7 @@ const Pageseven = () => {
                         <div className='h-full absolute right-0 top-0 lenerone w-[50px] md:w-[80px] 2xl:w-[125px]'></div>
                             <div className="scroll-content">
                                 {[...smimages, ...smimages].map((image, index) => (
-                                <div key={index} className="flex flex-wrap items-center w-[150px] sm:w-[130px] md:w-[130px] lg:w-[140px] xl:w-[150px] 2xl:w-[165px]">
+                                <div key={index} className="flex flex-wrap items-center w-[150px] sm:w-[130px] md:w-[140px] lg:w-[150px] xl:w-[180px] 2xl:w-[200px]">
                                     <Image src={image.src} alt={image.caption} />
                                 </div>
                                 ))}

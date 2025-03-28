@@ -1,39 +1,40 @@
 import React from 'react';
 
+
 const Pageone = () => {
     return (
         <div className='pt-[36px] sm:pt-[40px] md:pt-[48px] lg:pt-[64px] xl:pt-[96px] 2xl:pt-[148px] container mx-auto pb-[32px] sm:pb-[36px] md:pb-[40px] lg:pb-[48px] xl:pb-[64px] 2xl:pb-[99px] px-[24px] sm:px-0'>
             <div data-layer="Trade Like a Pro with Xonic Capital " className="TradeLikeAProWithXonicCapital text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px] text-center">
-                <a class="fontthree block">Access Global Markets with an Adaptive</a>
-                <a class="">Fintech Financial Institution.</a>
+                <a className="fontthree block">Access Global Markets with an Adaptive</a>
+                <a className="">Fintech Financial Institution.</a>
             </div>
             <div className='flex items-center justify-center pt-[14px] sm:pt-[15px] md:pt-[16px] lg:pt-[20px] xl:pt-[24px] 2xl:pt-[32px]'>
             <p className='leveragefinancial flex flex-wrap text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>At KAMA CAPITAL, we leverage financial technologies to offer diverse brokerage solutions across global <br className='md:block hidden'/> markets, including currencies, indices, CFDs, stocks, futures, and commodities.</p></div>
             <div className='grid grid-cols-1 sm:grid-cols-5 px-[24px] sm:px-[50px] md:px-[80px] lg:px-[120px] xl:px-[160px] 2xl:px-[193px] gap-[13px] sm:gap-[14px] md:gap-[15px] lg:gap-[16px] xl:gap-[20px] 2xl:gap-[24px] pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[96px]'>
 
                 <div className='foxbackgron w-full flex flex-col items-start justify-start col-span-2 p-[14px] sm:p-[15px] md:p-[16px] lg:p-[20px] xl:p-[24px] 2xl:p-[32px] gap-[36px] sm:gap-[40px] md:gap-[48px] lg:gap-[64px] xl:gap-[96px] 2xl:gap-[128px]'>
-                <svg className='w-[32px] sm:w-[36px] md:w-[40px] lg:w-[48px] xl:w-[64px] 2xl:w-[72px]' viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="36" cy="36" r="36" fill="white" fill-opacity="0.05"/>
-                <circle cx="36" cy="36" r="35.5" stroke="white" stroke-opacity="0.05"/>
-                <path d="M39.2129 25.1465C39.9126 25.2719 40.599 25.4625 41.2631 25.7159C41.9128 25.9637 42.5388 26.2695 43.1337 26.6295C43.7208 26.9875 44.2751 27.3969 44.7899 27.8527C45.3026 28.3062 45.7735 28.8047 46.1972 29.3422C46.6225 29.8804 46.9985 30.4557 47.3208 31.0613C47.6456 31.6717 47.9153 32.3101 48.1262 32.9686C48.3402 33.6388 48.4916 34.3273 48.5788 35.0253" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M34.491 47.7382C33.7915 47.613 33.1051 47.4232 32.4407 47.171C31.7902 46.9242 31.1641 46.6176 30.5702 46.2552C29.9824 45.899 29.428 45.4903 28.914 45.0342C28.4011 44.5795 27.9294 44.0803 27.5045 43.5425C27.0802 43.0036 26.7042 42.4284 26.3809 41.8235C26.0561 41.213 25.7865 40.5747 25.5755 39.9161C25.3627 39.2457 25.2112 38.5573 25.123 37.8594" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M33.2145 45.125L34.9292 47.6147L32.4395 49.3295" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M40.4979 27.7611L38.7832 25.2713L41.2729 23.5566" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M31.3055 24.3516C33.0281 24.3516 34.6801 25.0358 35.8982 26.2539C37.1162 27.4719 37.8005 29.124 37.8005 30.8465C37.8005 32.5691 37.1162 34.2211 35.8982 35.4392C34.6801 36.6572 33.0281 37.3415 31.3055 37.3415C29.583 37.3415 27.9309 36.6572 26.7129 35.4392C25.4948 34.2211 24.8105 32.5691 24.8105 30.8465C24.8105 29.124 25.4948 27.4719 26.7129 26.2539C27.9309 25.0358 29.583 24.3516 31.3055 24.3516Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M27.7578 29.748H32.7611" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M27.4023 31.957H32.4056" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M33.9058 33.3049C33.6581 33.612 33.3511 33.8661 33.003 34.0518C32.6614 34.2301 32.282 34.3237 31.8967 34.3246C31.5114 34.3237 31.1319 34.2301 30.7904 34.0518C30.4422 33.8661 30.1352 33.612 29.8875 33.3049C29.6208 32.9743 29.4148 32.599 29.2792 32.1964C29.1316 31.7599 29.0585 31.3018 29.0627 30.8411C29.0596 30.3798 29.1328 29.9211 29.2792 29.4836C29.4164 29.0813 29.623 28.7062 29.8897 28.3752C30.1368 28.0681 30.444 27.8146 30.7925 27.6304C31.1336 27.4505 31.5132 27.3562 31.8988 27.3555C32.2844 27.3562 32.6641 27.4505 33.0051 27.6304C33.3536 27.8146 33.6608 28.0681 33.9079 28.3752" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M42.3984 37.6191V39.0112" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M42.3984 45.084V46.4739" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M42.3941 35.5616C44.1144 35.565 45.7631 36.2508 46.9783 37.4685C48.1935 38.6862 48.8761 40.3362 48.8761 42.0566C48.8698 43.7728 48.1845 45.4167 46.97 46.6293C45.7554 47.8417 44.1103 48.5243 42.3941 48.5278C40.675 48.5278 39.0263 47.8449 37.8106 46.6292C36.595 45.4136 35.9121 43.7649 35.9121 42.0458C35.9104 41.1934 36.0768 40.3491 36.4018 39.5612C36.7268 38.7733 37.204 38.0572 37.806 37.4539C38.4081 36.8506 39.1233 36.372 39.9106 36.0454C40.6978 35.7189 41.5418 35.5508 42.3941 35.5508V35.5616Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M44.4159 39.7362C43.8341 39.5158 43.2312 39.3555 42.6168 39.2577C39.4905 38.907 39.09 42.0549 42.4176 42.0463C45.6521 42.0463 45.3468 45.1877 42.2141 44.8326C41.601 44.7354 40.9995 44.575 40.4193 44.3541" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
-                </svg>
-                <div>
-                    <h2 className='forex text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px]'>Forex</h2>
-                    <p className='padingfoxing text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px]'>
-                   Trade more than 40 major, cross, and exotic forex pairs with tight spreads and rapid order execution.
-                    </p>
-                </div>
+                    <svg className='w-[32px] sm:w-[36px] md:w-[40px] lg:w-[48px] xl:w-[64px] 2xl:w-[72px]' viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="36" cy="36" r="36" fill="white" fill-opacity="0.05"/>
+                    <circle cx="36" cy="36" r="35.5" stroke="white" stroke-opacity="0.05"/>
+                    <path d="M39.2129 25.1465C39.9126 25.2719 40.599 25.4625 41.2631 25.7159C41.9128 25.9637 42.5388 26.2695 43.1337 26.6295C43.7208 26.9875 44.2751 27.3969 44.7899 27.8527C45.3026 28.3062 45.7735 28.8047 46.1972 29.3422C46.6225 29.8804 46.9985 30.4557 47.3208 31.0613C47.6456 31.6717 47.9153 32.3101 48.1262 32.9686C48.3402 33.6388 48.4916 34.3273 48.5788 35.0253" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M34.491 47.7382C33.7915 47.613 33.1051 47.4232 32.4407 47.171C31.7902 46.9242 31.1641 46.6176 30.5702 46.2552C29.9824 45.899 29.428 45.4903 28.914 45.0342C28.4011 44.5795 27.9294 44.0803 27.5045 43.5425C27.0802 43.0036 26.7042 42.4284 26.3809 41.8235C26.0561 41.213 25.7865 40.5747 25.5755 39.9161C25.3627 39.2457 25.2112 38.5573 25.123 37.8594" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M33.2145 45.125L34.9292 47.6147L32.4395 49.3295" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M40.4979 27.7611L38.7832 25.2713L41.2729 23.5566" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M31.3055 24.3516C33.0281 24.3516 34.6801 25.0358 35.8982 26.2539C37.1162 27.4719 37.8005 29.124 37.8005 30.8465C37.8005 32.5691 37.1162 34.2211 35.8982 35.4392C34.6801 36.6572 33.0281 37.3415 31.3055 37.3415C29.583 37.3415 27.9309 36.6572 26.7129 35.4392C25.4948 34.2211 24.8105 32.5691 24.8105 30.8465C24.8105 29.124 25.4948 27.4719 26.7129 26.2539C27.9309 25.0358 29.583 24.3516 31.3055 24.3516Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M27.7578 29.748H32.7611" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M27.4023 31.957H32.4056" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M33.9058 33.3049C33.6581 33.612 33.3511 33.8661 33.003 34.0518C32.6614 34.2301 32.282 34.3237 31.8967 34.3246C31.5114 34.3237 31.1319 34.2301 30.7904 34.0518C30.4422 33.8661 30.1352 33.612 29.8875 33.3049C29.6208 32.9743 29.4148 32.599 29.2792 32.1964C29.1316 31.7599 29.0585 31.3018 29.0627 30.8411C29.0596 30.3798 29.1328 29.9211 29.2792 29.4836C29.4164 29.0813 29.623 28.7062 29.8897 28.3752C30.1368 28.0681 30.444 27.8146 30.7925 27.6304C31.1336 27.4505 31.5132 27.3562 31.8988 27.3555C32.2844 27.3562 32.6641 27.4505 33.0051 27.6304C33.3536 27.8146 33.6608 28.0681 33.9079 28.3752" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M42.3984 37.6191V39.0112" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M42.3984 45.084V46.4739" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M42.3941 35.5616C44.1144 35.565 45.7631 36.2508 46.9783 37.4685C48.1935 38.6862 48.8761 40.3362 48.8761 42.0566C48.8698 43.7728 48.1845 45.4167 46.97 46.6293C45.7554 47.8417 44.1103 48.5243 42.3941 48.5278C40.675 48.5278 39.0263 47.8449 37.8106 46.6292C36.595 45.4136 35.9121 43.7649 35.9121 42.0458C35.9104 41.1934 36.0768 40.3491 36.4018 39.5612C36.7268 38.7733 37.204 38.0572 37.806 37.4539C38.4081 36.8506 39.1233 36.372 39.9106 36.0454C40.6978 35.7189 41.5418 35.5508 42.3941 35.5508V35.5616Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                    <path d="M44.4159 39.7362C43.8341 39.5158 43.2312 39.3555 42.6168 39.2577C39.4905 38.907 39.09 42.0549 42.4176 42.0463C45.6521 42.0463 45.3468 45.1877 42.2141 44.8326C41.601 44.7354 40.9995 44.575 40.4193 44.3541" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
+                    </svg>
+                    <div>
+                        <h2 className='forex text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px]'>Forex</h2>
+                        <p className='padingfoxing text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px]'>
+                    Trade more than 40 major, cross, and exotic forex pairs with tight spreads and rapid order execution.
+                        </p>
+                    </div>
                 </div>
 
                 <div className='foxbackgron flex flex-col items-start justify-start col-span-3 p-[14px] sm:p-[15px] md:p-[16px] lg:p-[20px] xl:p-[24px] 2xl:p-[32px] gap-[36px] sm:gap-[40px] md:gap-[48px] lg:gap-[64px] xl:gap-[96px] 2xl:gap-[128px]'>

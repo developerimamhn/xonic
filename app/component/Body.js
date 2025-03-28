@@ -1,5 +1,5 @@
 import React from 'react';
-import Pageone from './Pageone';
+import Pageone from './Pageone'; 
 import Pagetwo from './Pagetwo';
 import Pagethree from './Pagethree';
 import Pagefore from './Pagefore';

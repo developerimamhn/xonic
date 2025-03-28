@@ -133,7 +133,7 @@ const NavBar = () => {
                 
                 <ul className='flex justify-between items-center gap-[14px] md:gap-[16px] lg:gap-[18px] xl:gap-[20px] 2xl:gap-[24px]'>
                     <label>
-                    <div className="custom-select-wrapper cursor-pointer hover:scale-105 transition-all duration-300">
+                    <div className="custom-select-wrapper cursor-pointer">
                         <select className='Link-manu-bar px-[11px] sm:px-[12px] md:px-[13px] lg:px-[14px] xl:px-[15px] 2xl:px-[16px] h-[24px] md:h-[32px] lg:h-[36px] xl:h-[40px] 2xl:h-[48px]  gap-[6px] xl:gap-[8px]' name="selectedFruit " id="fruit-selector">
                             <option value="apple">EN</option>
                             <option value="banana">BN</option>

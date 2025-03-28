@@ -12,8 +12,8 @@ const Pagetwo = () => {
            
             <div className='pb-[32px] sm:pb-[36px] md:pb-[40px] lg:pb-[48px] xl:pb-[64px] 2xl:pb-[84px]'>
                 <div data-layer="Trade Like a Pro with Xonic Capital " className="TradeLikeAProWithXonicCapital text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px]">
-                    <span class="fontthree">Why </span>
-                    <span class="">Invest Xonic?</span>
+                    <span className="fontthree">Why </span>
+                    <span className="">Invest Xonic?</span>
                 </div>
                 <p className='padingfoxing text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] pt-[11px] sm:pt-[12px] md:pt-[13px] lg:pt-[14px] xl:pt-[15px] 2xl:pt-[16px]'>
                 With a deep experience in trading, we provide fast execution, safe <br className='md:block hidden'/> counterparties with low spreads and commission.
