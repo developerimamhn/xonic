@@ -69,9 +69,9 @@ const Pageseven = () => {
                     </div>
                     <div>
                         <div className="scroll-container relative">
-                        <div className='h-full absolute left-0 top-0 lenerone w-[30px] md:w-[50px] 2xl:w-[72px]'></div>
-                        <div className='h-full absolute right-0 top-0 lenerone w-[50px] md:w-[80px] 2xl:w-[125px]'></div>
-                            <div className="scroll-content">
+                        <div className='h-full absolute left-0 top-0 lenerone w-[30px] md:w-[50px] 2xl:w-[72px] z-[50]'></div>
+                        <div className='h-full absolute right-0 top-0 lenertwo w-[50px] md:w-[80px] 2xl:w-[125px] z-[50]'></div>
+                            <div className="scroll-content relative">
                                 {[...smimages, ...smimages].map((image, index) => (
                                 <div key={index} className="flex flex-wrap items-center w-[150px] sm:w-[130px] md:w-[140px] lg:w-[150px] xl:w-[180px] 2xl:w-[200px]">
                                     <Image src={image.src} alt={image.caption} />
